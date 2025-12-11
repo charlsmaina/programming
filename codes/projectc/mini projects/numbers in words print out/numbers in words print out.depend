@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1705370798 source:c:\users\admin\desktop\projectc\numbers in words print out\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdbool.h>
+

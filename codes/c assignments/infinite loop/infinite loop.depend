@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710487644 source:c:\users\admin\desktop\c assignments\infinite loop\main.c
+	<stdio.h>
+	<stdlib.h>
+

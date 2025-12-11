@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px; /* Space between items */
+            padding: 10px;
+        }
+
+        .image-grid img {
+            width: 100%; /* Make sure images fill their grid cell */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below images */
+            object-fit: cover; /* Ensure images cover their container */
+        }
+
+        /* Optional: Add responsive adjustments if needed */
+        @media (max-width: 768px) {
+            .image-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+        }
+
+        @media (max-width: 480px) {
+            .image-grid {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Smaller columns */
+            }
+
+            .image-grid img {
+                /* Ensure images fit well within smaller grid cells */
+                max-height: 150px; /* Optional: Restrict max height to maintain layout */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-grid">
+    <img src="welsque-logo.jpg" alt="Welsque Logo">
+    <img src="welsque-services.PNG" alt="Welsque Services">
+    <img src="welsque-logo-2.PNG" alt="Welsque Logo 2">
+</div>
+
+</body>
+</html>

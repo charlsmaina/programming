@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1704881522 source:c:\users\admin\desktop\projectc\conversions\program looping\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1704881026 source:c:\users\admin\desktop\projectc\conversions\program looping\for loops.c
+	<stdio.h>
+

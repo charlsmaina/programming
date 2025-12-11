@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1708092296 source:c:\users\admin\desktop\c assignments\palindrome number checker\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

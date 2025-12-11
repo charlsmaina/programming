@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1708087194 source:c:\users\admin\desktop\c assignments\fibbonacci numbers generator\main.c
+	<stdio.h>
+	<stdlib.h>
+

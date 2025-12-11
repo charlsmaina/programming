@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1705206182 source:c:\users\admin\desktop\projectc\printing calc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

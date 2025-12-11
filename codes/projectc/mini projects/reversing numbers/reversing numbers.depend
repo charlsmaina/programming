@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1705217935 source:c:\users\admin\desktop\projectc\reversing numbers\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

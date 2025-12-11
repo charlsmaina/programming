@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Youtube.com clone</title>
+    <style>
+        p {
+
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .welsque-logo-div {
+            margin-bottom: 0px;
+            display: grid;
+
+
+
+        }
+
+        .welsque-logo {
+            width: 100%;
+
+            object-fit: contain;
+                    }
+
+        .search-bar {
+            font-size: 20px;
+            margin-left: 12px;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .video-stats,
+        .video-author {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 0px;
+            font-family: Arial;
+
+        }
+
+        .div-example {
+            display: inline-block;
+        }
+
+
+
+        .profile-photo {
+
+
+            width: 40px;
+            border-radius: 20px;
+            margin-top: 10px;
+
+        }
+
+        .video-info {
+
+            width: 100%;
+            margin-top: 0px;
+
+
+
+
+
+        }
+
+        .thumbnail-row {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            align-items: center;
+
+
+
+
+
+
+
+        }
+
+        .video-title {
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 10px;
+
+        }
+
+        .video-views,
+        .video-time,
+        .video-author {
+            display: inline-block;
+            font-weight: 550;
+            color: rgb(96, 96, 96);
+
+        }
+
+        .videos-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--display property in css
+     block elements-take an entire line
+      inline block element-take the space they need to
+        inline element-appear within aline of text 
+          -->
+
+    <!--
+                                            div element=box
+                                                        can contain other elements..they act like containers
+
+                                                        -->
+    <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="videos-grid">
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo" src="thumbnails/channel-pictures/welsque-logo.jpg">
+            </div>
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt=""></div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Welsque Limited Operations
+                    </p>
+                    <p class="video-author">
+                        Marcus Brownlee
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo"
+                    src="thumbnails/channel-pictures/welsque-logo-2.PNG">
+            </div>
+
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt=""></div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Welsque Limited staff
+                    </p>
+                    <p class="video-author">
+                        Charls Maina
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo" src="thumbnails/channel-pictures/chesiro.PNG">
+            </div>
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt=""></div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Security officers at work
+                    </p>
+                    <p class="video-author">
+                        Marcus Brownlee
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo"
+                    src="thumbnails/channel-pictures/motivation-quote.PNG">
+            </div>
+
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Stay strong
+                    </p>
+                    <p class="video-author">
+                        Charls Maina
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo" src="thumbnails/channel-pictures/welsque-name.PNG">
+            </div>
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt=""></div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Why welsque
+                    </p>
+                    <p class="video-author">
+                        Marcus Brownlee
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="welsque-logo-div"> <img class="welsque-logo"
+                    src="thumbnails/channel-pictures/wesque-services.PNG">
+            </div>
+
+            <div class="thumbnail-row">
+                <div class="video-profilephoto">
+                    <div> <img class="profile-photo" src="thumbnails/channel-pictures/profile-photo.jpg" alt=""></div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Welsque services
+                    </p>
+                    <p class="video-author">
+                        Charls Maina
+                    </p>
+
+                    <div class="video-stats">
+
+                        <p>
+                        <p class="video-views"> 3.4M views &#183;</p>
+                        <p class="video-time">6 months ago</p>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

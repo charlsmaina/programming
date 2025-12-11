@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1706582399 source:c:\users\admin\desktop\projectc\functionss\main.c
+	<stdio.h>
+	<stdlib.h>
+

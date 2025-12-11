@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>practice</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section>
+            <h3>form</h3>
+            <hr>
+            <table>
+                <caption>An example of a table</caption>
+                <thead>
+                    <tr>
+
+                        <th scope="col">Name</th>
+                        <th scope="col">Registration Number</th>
+                        <th scope="col">Sign</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>charles maina</td>
+                        <td>Ene212-0087/2021</td>
+                        <td>c.m</td>
+                    </tr>
+                    <tr>
+                        <td>john machira</td>
+                        <td>Ene212-00876/2021</td>
+                        <td>j.k</td>
+                    </tr>
+                    <tr>
+                        <td>James</td>
+                        <td>Ene212-00876/2023</td>
+                        <td>j.m</td>
+                    </tr>
+                    <tr>
+                        <td>prof</td>
+                        <td>Ene212-001496</td>
+                        <td>p.m</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <p>example of input field form controls</p>
+        <p><strong>input fields</strong> </p>
+
+        <form action="http://httpbin.org/get">
+            <fieldset>
+
+                <p>
+
+                    <label for="username">
+                        Enter your name: <input type="text" id="username" name="name">
+                    </label>
+                </p>
+
+                <p>
+                    <label for="mail">
+                        Enter your mail:
+                        <input type="email" id="mail" name="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="userspassword">Enter your password:</label> <input type="password" id="userspassword"
+                        name="password">
+                </p>
+                <p>
+                    <label for="age">Choose your age:
+                        <input type="number" id="age" name="age" min="18" max="36">
+                    </label>
+                </p>
+
+            </fieldset>
+            <p><strong>Please upload a copy of your national id</strong></p>
+            <fieldset>
+                <label for="id photo">
+                    <input type="file" id="id photo" name="id photo" accept="png"
+                        placeholder="upload a photo of your original id ">
+                </label>
+            </fieldset>
+            <p>
+                <strong>checkboxes</strong>
+            </p>
+            <p>Select your gender</p>
+
+            <fieldset>
+                <label for="gender1">Male</label>
+                <input type="checkbox" id="gender1" name="gender" value="male">
+
+                <label for="gender2">Female</label>
+                <input type="checkbox" id="gender2" name="gender" value="female">
+
+            </fieldset>
+
+
+            <fieldset>
+                <p><strong>Drop down menus</strong></p>
+                <p>Please choose your area of specialization</p>
+
+                <fieldset>
+                    <label for="profession"></label>
+                    <select name="specialization" id="profession" multiple>
+                        <option value="engneering">Engineering</option>
+                        <option value="software developer">Software developer</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="doctor">Doctor</option>
+                    </select>
+                </fieldset>
+                <p><strong>Radio buttons</strong></p>
+
+
+
+                <p>choose your level of education</p>
+                <fieldset>
+
+                    <p><label for="undergraduate">Undergraduate:
+
+                            <input type="radio" id="undergraduate" name="education level" value="undegraduate">
+                        </label></p>
+                    <p>
+                        <label for="masters degree">Masters degree
+                            <input type="radio" id="masters" name="education level">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="diploma">diploma
+                            <input type="radio" name="education level" value="diploma">
+
+                        </label>
+                    </p>
+                </fieldset>
+
+                <p><strong>Please provide a summary of your skills</strong></p>
+                <fieldset>
+                    <label for="message"> <textarea name="skills" id="message" cols="20" rows="10"
+                            placeholder="list your skills"></textarea></label>
+
+                </fieldset>
+
+                <p>
+                <p><strong>Date picker</strong></p>
+                <p>Please select from when you have been working</p>
+                <fieldset>
+                    <label for="date">Please select the date you started working:
+                        <input type="date" id="date">
+                    </label>
+                </fieldset>
+                </p>
+                <p>
+                <fieldset>
+                    <button type="submit">
+                        Submit
+                    </button>
+                    <button type="reset">Reset</button>
+                    <!-- <input type="submit" value="submit">
+                    <input type="reset" value="reset"> -->
+                </fieldset>
+                </p>
+
+
+
+
+
+
+
+        </form>
+
+
+
+    </article>
+</body>
+
+</html>

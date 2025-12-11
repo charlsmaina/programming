@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1705820733 source:c:\users\admin\desktop\projectc\fibonnaci without arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+
